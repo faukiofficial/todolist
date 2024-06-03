@@ -68,6 +68,10 @@ document.querySelector("#push").onclick = function(){
             }
         }
 
+        if(currentTasks.length !== 0){
+            document.querySelector(".notask").style.display = "none";
+        }
+
         let tasks = document.querySelectorAll(".task");
 
         for(let i = 0; i < tasks.length; i++){

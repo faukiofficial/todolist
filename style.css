@@ -129,6 +129,12 @@ body {
     cursor: pointer;
 }
 
+.notask p {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
 .task #taskname {
     font-family: sans-serif;
     font-size: 16px;

@@ -22,10 +22,55 @@ body {
     padding: 30px 40px;
 }
 
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.stopwatch .timerdisplay {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.stopwatch .buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.stopwatch .buttons button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.stopwatch .buttons #start {
+    background-color: blue;
+}
+
+.stopwatch .buttons #pause {
+    background-color: rgb(85, 84, 81);
+}
+
+.stopwatch .buttons #reset {
+    background-color: rgb(203, 111, 25);
+}
+
 #newtask {
     background-color: #ffffff;
     padding: 30px 20px;
     border-radius: 5px;
+    margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -64,7 +109,7 @@ body {
 #tasks {
     background-color: #fff;
     padding: 30px 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 100%;
